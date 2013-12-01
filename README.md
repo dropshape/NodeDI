@@ -62,3 +62,12 @@ You set an objects dependencies by defining an $inject = []; on the object for e
 ###Usage
 Check the test suite for full usage.
 ####TODO Usage examples
+
+
+##Change Log
+
+###0.0.2
+Updated Boyant logger to be able to change it's level on the CLI
+
+###0.0.1
+Initial Commit

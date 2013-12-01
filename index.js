@@ -13,12 +13,11 @@ function NodeDI(tick, loggerConfig) {
 
     loggerConfig = _.defaults(loggerConfig || {}, {name:'NodeDI', streams:[
         {
-            level:'error',
             stream:process.stdout
         },
         {
             level:'error',
-            path:'nodedi.error.log'
+            path:'Error.log'
         }
     ]});
 

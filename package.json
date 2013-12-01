@@ -1,7 +1,7 @@
 {
   "name": "node-di",
   "description": "NodeDI is a simple Dependency Injection framework loosley based on the AngularJS DI framework",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "DropShape",
     "email": "admin AT dropshape.com"
