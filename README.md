@@ -1,6 +1,17 @@
-##NodeDI
+##node-di
+
+Please Share on Twitter if you like #NodeDI
+
+<a href="https://twitter.com/intent/tweet?hashtags=NodeDI&amp;&amp;text=Check%20out%20this%20repo%20on%20github&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fgithub.com%2Fdropshape&amp;via=dropshape" style="float:right">
+<img src="https://raw.github.com/dropshape/NodeDI/master/twittershare.png">
+</a>
+
 ###Description
 NodeDI is a simple Dependency Injection framework for NodeJS. It has been built with testing in mind and as as such allows you to return mocks for any type of element that can be injected.
+
+###Installation
+
+    npm install node-di --save
 
 ###Modules
 Modules are named groups of injected items.
@@ -71,3 +82,9 @@ Updated Boyant logger to be able to change it's level on the CLI
 
 ###0.0.1
 Initial Commit
+
+Please Share on Twitter if you like #NodeDI
+
+<a href="https://twitter.com/intent/tweet?hashtags=NodeDI&amp;&amp;text=Check%20out%20this%20repo%20on%20github&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fgithub.com%2Fdropshape&amp;via=dropshape" style="float:right">
+<img src="https://raw.github.com/dropshape/NodeDI/master/twittershare.png">
+</a>
