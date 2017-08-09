@@ -1,4 +1,4 @@
-##node-di
+## node-di
 
 Please Share on Twitter if you like #NodeDI
 
@@ -6,32 +6,32 @@ Please Share on Twitter if you like #NodeDI
 <img src="https://raw.github.com/dropshape/NodeDI/master/twittershare.png">
 </a>
 
-###Description
+### Description
 NodeDI is a simple Dependency Injection framework for NodeJS. It has been built with testing in mind and as as such allows you to return mocks for any type of element that can be injected.
 
-###Installation
+### Installation
 
     npm install node-di --save
 
-###Modules
+### Modules
 Modules are named groups of injected items.
     
     var server  = DI.module('serverModule', ['dependency1', 'dependency2']);
 
-###Values
+### Values
 Values are the simplest items that can be injected and can be injected and are normally 3rd party modules, primitives or items that do not need to be new'ed up. Values can also have dependencies as described below.
 
     DI.module('serverModule', [])
          .value('config', { port:3001, host:'localhost' });
 
-###Services
+### Services
 Services are items that do need to be new'ed up but that should be shared between all instances that need the service within a module.
 
     var Passport = require('passport').Passport;
     DI.module('serverModule', [])
         .service('passport', Passport);
 
-###Factories
+### Factories
 Factories return a new instance every time one is needed from the dependency injector they are useful when you dynamically need to create items.
 
     function Model(){
@@ -42,7 +42,7 @@ Factories return a new instance every time one is needed from the dependency inj
     DI.module('serverModule', [])
         .factory('model', Model);
 
-###Dependencies.
+### Dependencies.
 You set an objects dependencies by defining an $inject = []; on the object for example
 
     //------- JobScheduler.js -----//
@@ -70,17 +70,17 @@ You set an objects dependencies by defining an $inject = []; on the object for e
         .value('scheduler', scheduler)
         .value('config', config);
 
-###Usage
+### Usage
 Check the test suite for full usage.
-####TODO Usage examples
+#### TODO Usage examples
 
 
-##Change Log
+## Change Log
 
-###0.0.2
+### 0.0.2
 Updated Boyant logger to be able to change it's level on the CLI
 
-###0.0.1
+### 0.0.1
 Initial Commit
 
 Please Share on Twitter if you like #NodeDI
